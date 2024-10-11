@@ -63,7 +63,7 @@ const Home = () => {
                   {/* <div className="todo__content"> */}
                   <div className="todo__item-check">
                     <label>
-                      <input type="checkbox" />
+                      <input type="checkbox" defaultChecked={true} />
                       <i className="todo__item-check-icon" />
                       <GoCheck className="todo__item-check-icon complete" />
                       <span className="todo__content-text">할일 2</span>
